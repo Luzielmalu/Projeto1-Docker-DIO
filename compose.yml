@@ -17,7 +17,6 @@ website$ nano index.html
    <html>
    <h1> Meu primeiro projeto Docker !!</h1>
    
-   </head>
 <style>
     body{
     background: blue;
