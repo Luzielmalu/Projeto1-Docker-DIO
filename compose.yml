@@ -11,9 +11,9 @@ services:
     - ./website:/usr/local/apache2/htdocs
     
     
+   cd website/ //repositório
     
-    
-   nano index.html
+website$ nano index.html
    <html>
    <h1> Meu primeiro projeto Docker !!</h1>
    
@@ -23,8 +23,6 @@ services:
     background: blue;
     font: normal 15pt arial;
 }
-header{
-    color: white;
-    text-align: center;
+</style>
   </html>  
    
